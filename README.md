@@ -1,9 +1,18 @@
-# That Card App dictionaries
+# That Card App data
 
-Word lists used by That Card App. The app downloads them after install instead of bundling them, because they are
-derived from Wiktionary and have to be shared under the same license.
+Word lists and example sentences used by That Card App. The app downloads them after install instead of bundling
+them, because they are derived from Wiktionary and Tatoeba and have to be shared under their licenses.
 
-## Files
+Two kinds of data live here, under two different licenses:
+
+| Folder | What | License |
+|---|---|---|
+| repository root | Dictionaries, derived from Wiktionary | [CC BY-SA 4.0](LICENSE) |
+| `sentences/` | Example sentence packs, from Tatoeba | [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/) |
+
+`manifest.json` lists every file with its size, entry counts, license and SHA-256 checksum, so a client can check a download.
+
+## Dictionaries
 
 | File | Direction | Entries (first / second section) | Size | Built from |
 |---|---|---|---|---|
@@ -14,30 +23,43 @@ derived from Wiktionary and have to be shared under the same license.
 | `dict-en-de.txt.gz` | de → en, then en → de | 70,621 / 71,742 | 1.6 MB | English Wiktionary, German entries |
 | `dict-en-it.txt.gz` | it → en, then en → it | 104,109 / 91,226 | 1.9 MB | English Wiktionary, Italian entries |
 
-`manifest.json` lists every file with its size, entry counts and SHA-256 checksum, so a client can check a download.
-
-## Format
-
 Plain text, gzip-compressed, UTF-8. Each file has two sections separated by a form-feed line (`\n\f\n`).
 Each line is `word<TAB>translation1|translation2|translation3`, best translation first, up to three per word.
 The first section goes from the first language to the second, the second section goes back.
 Entries can be single words or short phrases such as "fall in love".
 
-Download one file directly, for example:
+## Sentence packs
+
+| File | Languages | Sentence pairs | Size |
+|---|---|---|---|
+| `sentences/sent-en-es.txt.gz` | en / es | 189,802 | 7.1 MB |
+| `sentences/sent-en-fr.txt.gz` | en / fr | 225,115 | 8.3 MB |
+| `sentences/sent-en-de.txt.gz` | en / de | 198,537 | 7.7 MB |
+| `sentences/sent-en-it.txt.gz` | en / it | 216,932 | 6.6 MB |
+| `sentences/sent-ru-en.txt.gz` | ru / en | 417,477 | 17.7 MB |
+| `sentences/sent-ru-es.txt.gz` | ru / es | 80,096 | 3.9 MB |
+
+See [sentences/README.md](sentences/README.md) for the format and the changes made.
+
+Download any file directly, for example:
 
 ```
 https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/dict-en-es.txt.gz
+https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/sentences/sent-en-es.txt.gz
 ```
 
 ## Attribution
 
-The dictionary data is derived from Wiktionary (https://www.wiktionary.org) by its contributors, using the
-structured extracts published by kaikki.org (https://kaikki.org), which are produced with wiktextract.
+**Dictionaries.** Derived from Wiktionary (https://www.wiktionary.org) by its contributors, using the structured
+extracts published by kaikki.org (https://kaikki.org), which are produced with wiktextract.
 Wiktionary text is available under the Creative Commons Attribution-ShareAlike 4.0 license.
-Wiktionary and the Wikimedia Foundation do not endorse this project.
 
-If you use these files, credit Wiktionary and kaikki.org, link the license, and say that the data was changed.
-Anything you build from them has to be shared under the same license.
+**Sentences.** From Tatoeba (https://tatoeba.org), by its contributors, licensed under CC BY 2.0 FR.
+The dictionary forms listed in the packs were looked up with the Wiktionary-derived data above, so credit Wiktionary too if you reuse them.
+
+Wiktionary, the Wikimedia Foundation and Tatoeba do not endorse this project.
+If you use these files, credit the sources, link the license, and say that the data was changed.
+Anything you build from the dictionaries has to be shared under CC BY-SA 4.0.
 
 ## Changes made to the Wiktionary data
 
@@ -52,5 +74,6 @@ Anything you build from them has to be shared under the same license.
 
 ## License
 
-The files in this repository are licensed under [CC BY-SA 4.0](LICENSE).
+The dictionaries in the repository root are licensed under [CC BY-SA 4.0](LICENSE).
 The full legal text is in the `LICENSE` file and at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+The sentence packs in `sentences/` are licensed under CC BY 2.0 FR, see `sentences/README.md`.

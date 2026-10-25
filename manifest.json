@@ -1,10 +1,10 @@
 {
   "format": 1,
   "updated": "2026-10-25",
-  "license": "CC-BY-SA-4.0",
   "files": [
     {
       "name": "dict.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "ru",
         "en"
@@ -15,10 +15,12 @@
       ],
       "bytes": 1164105,
       "sha256": "19ced4958475541e56ae9975b7d251ee39b7ee4cb001807b725bb1b7c843e474",
+      "license": "CC-BY-SA-4.0",
       "source": "English Wiktionary, Russian entries"
     },
     {
       "name": "dict-ru-es.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "ru",
         "es"
@@ -29,10 +31,12 @@
       ],
       "bytes": 611634,
       "sha256": "49e53eff76691040ec186e3f793f87ae4f290ea52e5d82c9ecdf7bc8c8668ebb",
+      "license": "CC-BY-SA-4.0",
       "source": "Russian Wiktionary and Spanish Wiktionary"
     },
     {
       "name": "dict-en-es.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "es",
         "en"
@@ -43,10 +47,12 @@
       ],
       "bytes": 1517881,
       "sha256": "1765aa80bbdb9c8d5ca615742269f49dff8fc52a0b0c4d25589f795373fc1819",
+      "license": "CC-BY-SA-4.0",
       "source": "English Wiktionary, Spanish entries"
     },
     {
       "name": "dict-en-fr.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "fr",
         "en"
@@ -57,10 +63,12 @@
       ],
       "bytes": 1253521,
       "sha256": "a17f7fbe511cf9abbc28c545a5b26761805b04f3fbb40ab975044a59a522a7d6",
+      "license": "CC-BY-SA-4.0",
       "source": "English Wiktionary, French entries"
     },
     {
       "name": "dict-en-de.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "de",
         "en"
@@ -71,10 +79,12 @@
       ],
       "bytes": 1577717,
       "sha256": "27d4355a634979517ae7456d004b595d6223e6965e3d464eaabc6238f62c3b98",
+      "license": "CC-BY-SA-4.0",
       "source": "English Wiktionary, German entries"
     },
     {
       "name": "dict-en-it.txt.gz",
+      "kind": "dictionary",
       "sections": [
         "it",
         "en"
@@ -85,7 +95,98 @@
       ],
       "bytes": 1858843,
       "sha256": "85d2a14301aebaf4e174cbdd1737e03526c7b03316a2b2af7565a997defad594",
+      "license": "CC-BY-SA-4.0",
       "source": "English Wiktionary, Italian entries"
+    },
+    {
+      "name": "sentences/sent-en-es.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "en",
+        "es"
+      ],
+      "entries": [
+        189802
+      ],
+      "bytes": 7090863,
+      "sha256": "478967bdd4d6558c7847357960ca74a1eb12c1fbb7b2e2b0863c4d5eb847e3ea",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
+    },
+    {
+      "name": "sentences/sent-en-fr.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "en",
+        "fr"
+      ],
+      "entries": [
+        225115
+      ],
+      "bytes": 8342850,
+      "sha256": "a40840db6aa5ce2c1282cb0ae1f3d780fa2eb36cb71728afa0c32caa1067c489",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
+    },
+    {
+      "name": "sentences/sent-en-de.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "en",
+        "de"
+      ],
+      "entries": [
+        198537
+      ],
+      "bytes": 7664269,
+      "sha256": "89bebc50586e5991d511ee62f3c6ea119a122b61e73b093749ec4bac3b69e01e",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
+    },
+    {
+      "name": "sentences/sent-en-it.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "en",
+        "it"
+      ],
+      "entries": [
+        216932
+      ],
+      "bytes": 6572559,
+      "sha256": "9a9004559aad924a359a09e9042b6d359405506da8ece80d74c99eb53c50ffc8",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
+    },
+    {
+      "name": "sentences/sent-ru-en.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "ru",
+        "en"
+      ],
+      "entries": [
+        417477
+      ],
+      "bytes": 17693675,
+      "sha256": "16db2f058be1ea52b6dbe9f1655e6bc7ad6ca6b1b2f5866db90fc9ebb3a330b5",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
+    },
+    {
+      "name": "sentences/sent-ru-es.txt.gz",
+      "kind": "sentences",
+      "sections": [
+        "ru",
+        "es"
+      ],
+      "entries": [
+        80096
+      ],
+      "bytes": 3873784,
+      "sha256": "c8982285aa44d5fa164183992e73429bdcd4c107c7e04a2ff48a019f20a750e3",
+      "license": "CC-BY-2.0-FR",
+      "source": "Tatoeba"
     }
   ]
 }
