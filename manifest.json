@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "updated": "2026-10-25",
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    {
+      "name": "dict.txt.gz",
+      "sections": [
+        "ru",
+        "en"
+      ],
+      "entries": [
+        44969,
+        49158
+      ],
+      "bytes": 1164105,
+      "sha256": "19ced4958475541e56ae9975b7d251ee39b7ee4cb001807b725bb1b7c843e474",
+      "source": "English Wiktionary, Russian entries"
+    },
+    {
+      "name": "dict-ru-es.txt.gz",
+      "sections": [
+        "ru",
+        "es"
+      ],
+      "entries": [
+        24549,
+        28317
+      ],
+      "bytes": 611634,
+      "sha256": "49e53eff76691040ec186e3f793f87ae4f290ea52e5d82c9ecdf7bc8c8668ebb",
+      "source": "Russian Wiktionary and Spanish Wiktionary"
+    },
+    {
+      "name": "dict-en-es.txt.gz",
+      "sections": [
+        "es",
+        "en"
+      ],
+      "entries": [
+        79094,
+        77486
+      ],
+      "bytes": 1517881,
+      "sha256": "1765aa80bbdb9c8d5ca615742269f49dff8fc52a0b0c4d25589f795373fc1819",
+      "source": "English Wiktionary, Spanish entries"
+    },
+    {
+      "name": "dict-en-fr.txt.gz",
+      "sections": [
+        "fr",
+        "en"
+      ],
+      "entries": [
+        63647,
+        70387
+      ],
+      "bytes": 1253521,
+      "sha256": "a17f7fbe511cf9abbc28c545a5b26761805b04f3fbb40ab975044a59a522a7d6",
+      "source": "English Wiktionary, French entries"
+    },
+    {
+      "name": "dict-en-de.txt.gz",
+      "sections": [
+        "de",
+        "en"
+      ],
+      "entries": [
+        70621,
+        71742
+      ],
+      "bytes": 1577717,
+      "sha256": "27d4355a634979517ae7456d004b595d6223e6965e3d464eaabc6238f62c3b98",
+      "source": "English Wiktionary, German entries"
+    },
+    {
+      "name": "dict-en-it.txt.gz",
+      "sections": [
+        "it",
+        "en"
+      ],
+      "entries": [
+        104109,
+        91226
+      ],
+      "bytes": 1858843,
+      "sha256": "85d2a14301aebaf4e174cbdd1737e03526c7b03316a2b2af7565a997defad594",
+      "source": "English Wiktionary, Italian entries"
+    }
+  ]
+}
