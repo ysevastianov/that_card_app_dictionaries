@@ -292,7 +292,7 @@
     497
    ],
    "bytes": 1542,
-   "sha256": "98cfdbfcbf5382e0ec3d72f9e4b025c96df00cc20842405dea18a83373d615a2",
+   "sha256": "49b860070f26ee089be89430e47183f17f99c8ce59126890f3eafa55c337e775",
    "license": "headwords only, no definitions",
    "source": "HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021); word list as typed up in github.com/elkmovie/hsk30 (MIT)"
   },
@@ -307,7 +307,7 @@
     370
    ],
    "bytes": 1234,
-   "sha256": "47f1bc47ee2abf551afccda89c4a7da3ce8b4396862841c7ee27c4fa8f281282",
+   "sha256": "838486a6455f5a957fcc26d370701ccbfa8bf64674698ceba70117b13ee98cc1",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of about 370 basic Hebrew words (tools/he_aleph.tsv): there is no published open word list for Ulpan Aleph"
   },
@@ -322,7 +322,7 @@
     669
    ],
    "bytes": 2525,
-   "sha256": "22ee401b70c1bd19fb509f42223b61a6d828a73dad7b6e33339507ab1fe30b17",
+   "sha256": "a6e250de4df10b327b8b42640e3c5728209a4334c375d7d9d59ab3c167469c43",
    "license": "headwords only, no definitions",
    "source": "Goethe-Zertifikat A1: Start Deutsch 1, Wortliste"
   },
@@ -337,7 +337,7 @@
     898
    ],
    "bytes": 2725,
-   "sha256": "fbb8cec866654894cc37d609d1a8050bd3c63e818f68b980f3f620f02d15a0d7",
+   "sha256": "f485d005318d59a934286e48c9b97f2828f5cc3807cfd041007db1c7fa69227a",
    "license": "headwords only, no definitions",
    "source": "The Oxford 3000 (Oxford University Press), entries tagged A1"
   },
@@ -352,9 +352,24 @@
     429
    ],
    "bytes": 1669,
-   "sha256": "0686d129fc549461fa534660ed0954827e3f061eb86541be3810566037270ec3",
+   "sha256": "48844a29ea08729b4b5109067b09fc86e0eee2bddb77e1865aa7a3b536855255",
    "license": "headwords only, no definitions",
    "source": "Instituto Cervantes, Plan curricular (PCIC), A1 inventories (a topical inventory, about 430 words)"
+  },
+  {
+   "name": "levels/level-fr.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "fr"
+   ],
+   "level": "Basic",
+   "entries": [
+    372
+   ],
+   "bytes": 2934,
+   "sha256": "462a085a97045c4b2f015b88746402a5709f06e131aa39f91907456c65d20a14",
+   "license": "headwords only, no definitions",
+   "source": "a hand-made list of 300 basic French words (tools/fr_top300.tsv)"
   },
   {
    "name": "levels/level-it.txt.gz",
@@ -367,9 +382,24 @@
     483
    ],
    "bytes": 1701,
-   "sha256": "844d60b2daf20246f54427fc6717a241a450a6a4f4506405bd8aea3032e2c00a",
+   "sha256": "e3e05429fc7d2d5e834471c09690cc840bd8c4ef1d3d991ec8f1fbafd5cecc77",
    "license": "headwords only, no definitions",
    "source": "Profilo della lingua italiana, A1 word list (Spinelli and Parizzi; Universita per Stranieri di Perugia)"
+  },
+  {
+   "name": "levels/level-ru.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "ru"
+   ],
+   "level": "Basic",
+   "entries": [
+    357
+   ],
+   "bytes": 5066,
+   "sha256": "f41f9b120310661436d03049bdb9a91e849b4e9971d027bf14f5115c8c1ce5e8",
+   "license": "headwords only, no definitions",
+   "source": "a hand-made list of 300 basic Russian words (tools/ru_top300.tsv)"
   }
  ]
 }

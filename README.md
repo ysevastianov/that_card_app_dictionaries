@@ -72,10 +72,13 @@ Only headwords are published, no definitions or examples; the translations come 
 | `level-es` | A1 | Instituto Cervantes, Plan curricular (PCIC), A1 inventories; a topical inventory, so short | 429 |
 | `level-it` | A1 | Profilo della lingua italiana, A1 word list (Spinelli and Parizzi, Universita per Stranieri di Perugia) | 483 |
 | `level-en` | A1 | The Oxford 3000 (Oxford University Press), entries tagged A1 | 898 |
+| `level-fr` | Basic | a hand-made list of basic French words (`tools/fr_top300.tsv` in the app repo), with its own English translations | 372 |
+| `level-ru` | Basic | a hand-made list of basic Russian words (`tools/ru_top300.tsv` in the app repo), with its own English and Spanish translations | 357 |
 | `level-he` | Aleph | a hand-made list of basic Hebrew words (`tools/he_aleph.tsv` in the app repo); no open word list for Ulpan Aleph exists | 370 |
 
 The first five are lists published by their institutions, whose copyright stays with them; the files here contain only the headwords as a yes/no mark of the level.
-French and Russian have no level yet: the only French A1 list found (FLELex-Beacco, UCLouvain) is CC BY-NC-SA and its levels were guessed by a model, and the only full Russian A1 lexical minimum found online is an unauthorised copy of a book.
+The Hebrew, French and Russian lists are hand-made. A line of a level file may carry its own translations as extra tab-separated fields (`@en=to be`, `@es=ser`; several meanings with `|`); the French and Russian files do.
+There is no official list for them that could be used: the only French A1 list found (FLELex-Beacco, UCLouvain) is CC BY-NC-SA and its levels were guessed by a model, and the only full Russian A1 lexical minimum found online is an unauthorised copy of a book.
 
 ## Attribution
 
