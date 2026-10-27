@@ -59,6 +59,24 @@ https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/d
 https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/sentences/sent-en-es.txt.gz
 ```
 
+## Level lists
+
+`levels/level-xx.txt.gz` (listed in `manifest.json` with `kind: levels`) holds the headwords of the beginner level of one language, one per line, variants of one entry separated by a tab.
+The app uses it for the level flag next to a language: the words of the list that the pair's dictionary knows become a set of words under one tag (A1, HSK1, Aleph).
+Only headwords are published, no definitions or examples; the translations come from the dictionaries above. The lists are built by `tools/build_levels.py` in the app repo.
+
+| File | Level | Source | Words |
+|---|---|---|---|
+| `level-zh` | HSK1 | HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021), as typed up in github.com/elkmovie/hsk30 (MIT) | 497 |
+| `level-de` | A1 | Goethe-Zertifikat A1: Start Deutsch 1, Wortliste (Goethe-Institut) | 669 |
+| `level-es` | A1 | Instituto Cervantes, Plan curricular (PCIC), A1 inventories; a topical inventory, so short | 429 |
+| `level-it` | A1 | Profilo della lingua italiana, A1 word list (Spinelli and Parizzi, Universita per Stranieri di Perugia) | 483 |
+| `level-en` | A1 | The Oxford 3000 (Oxford University Press), entries tagged A1 | 898 |
+| `level-he` | Aleph | a hand-made list of basic Hebrew words (`tools/he_aleph.tsv` in the app repo); no open word list for Ulpan Aleph exists | 370 |
+
+The first five are lists published by their institutions, whose copyright stays with them; the files here contain only the headwords as a yes/no mark of the level.
+French and Russian have no level yet: the only French A1 list found (FLELex-Beacco, UCLouvain) is CC BY-NC-SA and its levels were guessed by a model, and the only full Russian A1 lexical minimum found online is an unauthorised copy of a book.
+
 ## Attribution
 
 **Dictionaries.** Derived from Wiktionary (https://www.wiktionary.org) by its contributors, using the structured

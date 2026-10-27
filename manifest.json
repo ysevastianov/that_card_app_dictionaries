@@ -257,11 +257,11 @@
     "en"
    ],
    "entries": [
-    9873,
-    17293
+    9891,
+    17036
    ],
-   "bytes": 283162,
-   "sha256": "f989471aae150b172923b48b5a9706d652169754ec70507a8d7bf5597a24986e",
+   "bytes": 279243,
+   "sha256": "0b9afe0edd7ffbb0a992d776d107dca8ab6a28be3b0a00d459e5f0a5bc9eb0ca",
    "license": "CC-BY-SA-4.0",
    "source": "English Wiktionary, Hebrew entries and English translation tables"
   },
@@ -273,13 +273,103 @@
     "ru"
    ],
    "entries": [
-    6586,
-    9380
+    6643,
+    9311
    ],
-   "bytes": 167266,
-   "sha256": "d882c825d3af2e8a0f2fd8857e137e909f0e564b73090313b72c49cfc8a987a6",
+   "bytes": 166152,
+   "sha256": "47e6d3644d51475bd890baa21439d0de87e7c18baa1832334c9b97ace9939930",
    "license": "CC-BY-SA-4.0",
    "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
+  },
+  {
+   "name": "levels/level-zh.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "zh"
+   ],
+   "level": "HSK1",
+   "entries": [
+    497
+   ],
+   "bytes": 1542,
+   "sha256": "98cfdbfcbf5382e0ec3d72f9e4b025c96df00cc20842405dea18a83373d615a2",
+   "license": "headwords only, no definitions",
+   "source": "HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021); word list as typed up in github.com/elkmovie/hsk30 (MIT)"
+  },
+  {
+   "name": "levels/level-he.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "he"
+   ],
+   "level": "Aleph",
+   "entries": [
+    370
+   ],
+   "bytes": 1234,
+   "sha256": "47f1bc47ee2abf551afccda89c4a7da3ce8b4396862841c7ee27c4fa8f281282",
+   "license": "headwords only, no definitions",
+   "source": "a hand-made list of about 370 basic Hebrew words (tools/he_aleph.tsv): there is no published open word list for Ulpan Aleph"
+  },
+  {
+   "name": "levels/level-de.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "de"
+   ],
+   "level": "A1",
+   "entries": [
+    669
+   ],
+   "bytes": 2525,
+   "sha256": "22ee401b70c1bd19fb509f42223b61a6d828a73dad7b6e33339507ab1fe30b17",
+   "license": "headwords only, no definitions",
+   "source": "Goethe-Zertifikat A1: Start Deutsch 1, Wortliste"
+  },
+  {
+   "name": "levels/level-en.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "en"
+   ],
+   "level": "A1",
+   "entries": [
+    898
+   ],
+   "bytes": 2725,
+   "sha256": "fbb8cec866654894cc37d609d1a8050bd3c63e818f68b980f3f620f02d15a0d7",
+   "license": "headwords only, no definitions",
+   "source": "The Oxford 3000 (Oxford University Press), entries tagged A1"
+  },
+  {
+   "name": "levels/level-es.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "es"
+   ],
+   "level": "A1",
+   "entries": [
+    429
+   ],
+   "bytes": 1669,
+   "sha256": "0686d129fc549461fa534660ed0954827e3f061eb86541be3810566037270ec3",
+   "license": "headwords only, no definitions",
+   "source": "Instituto Cervantes, Plan curricular (PCIC), A1 inventories (a topical inventory, about 430 words)"
+  },
+  {
+   "name": "levels/level-it.txt.gz",
+   "kind": "levels",
+   "sections": [
+    "it"
+   ],
+   "level": "A1",
+   "entries": [
+    483
+   ],
+   "bytes": 1701,
+   "sha256": "844d60b2daf20246f54427fc6717a241a450a6a4f4506405bd8aea3032e2c00a",
+   "license": "headwords only, no definitions",
+   "source": "Profilo della lingua italiana, A1 word list (Spinelli and Parizzi; Universita per Stranieri di Perugia)"
   }
  ]
 }
