@@ -220,38 +220,6 @@
    "source": "Tatoeba"
   },
   {
-   "name": "dict-en-he.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "he",
-    "en"
-   ],
-   "entries": [
-    9873,
-    17293
-   ],
-   "bytes": 283177,
-   "sha256": "2856c0e318e9783c798ef22890bfc22c6e5d6ed23ea292c8d825bf53a845414b",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Hebrew entries and English translation tables"
-  },
-  {
-   "name": "dict-ru-he.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "he",
-    "ru"
-   ],
-   "entries": [
-    6586,
-    9380
-   ],
-   "bytes": 167293,
-   "sha256": "a64ed5541f320cd17ec9d1ea7040be009a82c9bfb7f641578f7e15f96aa8d4d0",
-   "license": "CC-BY-SA-4.0",
-   "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
-  },
-  {
    "name": "sentences/sent-en-he.txt.gz",
    "kind": "sentences",
    "sections": [
@@ -280,6 +248,38 @@
    "sha256": "54e47f937e0ad88b5846873edbbc636353b583cc146fe938ceb06ff9507b5034",
    "license": "CC-BY-2.0-FR",
    "source": "Tatoeba"
+  },
+  {
+   "name": "dict-en-he.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "he",
+    "en"
+   ],
+   "entries": [
+    9873,
+    17293
+   ],
+   "bytes": 283162,
+   "sha256": "f989471aae150b172923b48b5a9706d652169754ec70507a8d7bf5597a24986e",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Hebrew entries and English translation tables"
+  },
+  {
+   "name": "dict-ru-he.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "he",
+    "ru"
+   ],
+   "entries": [
+    6586,
+    9380
+   ],
+   "bytes": 167266,
+   "sha256": "d882c825d3af2e8a0f2fd8857e137e909f0e564b73090313b72c49cfc8a987a6",
+   "license": "CC-BY-SA-4.0",
+   "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
   }
  ]
 }
