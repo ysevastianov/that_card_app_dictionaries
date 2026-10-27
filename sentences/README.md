@@ -24,6 +24,15 @@ Plain text, gzip-compressed, UTF-8, one pair per line, six tab-separated columns
 5. share of known words in sentence 1, in percent
 6. share of known words in sentence 2, in percent
 
+## Hebrew and Chinese packs
+
+`sent-en-he`, `sent-ru-he` and `sent-en-zh` are one-way packs (an English or Russian speaker learning Hebrew, an English speaker learning Chinese), so only the
+Hebrew or Chinese side is analysed: column 3 is empty and column 5 is 100.
+- Hebrew is written without vowel points; a word with a prefix (and, the, in, to, from, that: ו ה ב כ ל מ ש) is listed under its dictionary word, for example `2:בית` for בבית.
+  Russian-Hebrew pairs are the direct Tatoeba links first, then pairs whose two sentences translate the same English sentence.
+- Chinese sentences are in simplified characters and cut into words with single spaces (the app writes them without spaces); punctuation is `, . ? !` attached to the word.
+  The words were found with a lexicon of Wiktionary headwords and word counts from Tatoeba and Wiktionary examples, so every known word is its own dictionary form (`3`, never `3:word`).
+
 ## Changes made to the Tatoeba data
 
 - Kept a pair when one side has 3 to 15 words, contains only letters and . , ! ? ¿ ¡, and at least 60 percent of its

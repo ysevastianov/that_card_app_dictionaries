@@ -22,11 +22,18 @@ Two kinds of data live here, under two different licenses:
 | `dict-en-fr.txt.gz` | fr → en, then en → fr | 63,647 / 70,387 | 1.3 MB | English Wiktionary, French entries |
 | `dict-en-de.txt.gz` | de → en, then en → de | 70,621 / 71,742 | 1.6 MB | English Wiktionary, German entries |
 | `dict-en-it.txt.gz` | it → en, then en → it | 104,109 / 91,226 | 1.9 MB | English Wiktionary, Italian entries |
+| `dict-en-he.txt.gz` | he → en, then en → he | 9,591 / 17,473 | 0.3 MB | English Wiktionary, Hebrew entries and English translation tables |
+| `dict-ru-he.txt.gz` | he → ru, then ru → he | 7,610 / 10,463 | 0.2 MB | Russian Wiktionary, Hebrew entries and Russian translation tables |
+| `dict-en-zh.txt.gz` | zh → en, then en → zh | 56,285 / 63,357 | 1.6 MB | English Wiktionary, Chinese entries (simplified characters) |
 
 Plain text, gzip-compressed, UTF-8. Each file has two sections separated by a form-feed line (`\n\f\n`).
 Each line is `word<TAB>translation1|translation2|translation3`, best translation first, up to three per word.
 The first section goes from the first language to the second, the second section goes back.
 Entries can be single words or short phrases such as "fall in love".
+
+Hebrew is written without vowel points, as Tatoeba writes it. A verb is listed under the form Wiktionary uses as its dictionary word
+(third person masculine past, for example קרא for "to read"); infinitives found in translation tables are mapped to it.
+Chinese words are in simplified characters; Wiktionary keeps most definitions under the traditional spelling, so they were mapped back to the simplified one.
 
 ## Sentence packs
 
@@ -36,6 +43,9 @@ Entries can be single words or short phrases such as "fall in love".
 | `sentences/sent-en-fr.txt.gz` | en / fr | 225,115 | 8.3 MB |
 | `sentences/sent-en-de.txt.gz` | en / de | 198,537 | 7.7 MB |
 | `sentences/sent-en-it.txt.gz` | en / it | 216,932 | 6.6 MB |
+| `sentences/sent-en-he.txt.gz` | en / he | 115,029 | 4.1 MB |
+| `sentences/sent-ru-he.txt.gz` | ru / he | 67,540 | 2.5 MB |
+| `sentences/sent-en-zh.txt.gz` | en / zh | 53,918 | 2.0 MB |
 | `sentences/sent-ru-en.txt.gz` | ru / en | 417,477 | 17.7 MB |
 | `sentences/sent-ru-es.txt.gz` | ru / es | 80,096 | 3.9 MB |
 
