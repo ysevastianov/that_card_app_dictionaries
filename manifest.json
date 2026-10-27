@@ -3,102 +3,6 @@
  "updated": "2026-10-27",
  "files": [
   {
-   "name": "dict.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "ru",
-    "en"
-   ],
-   "entries": [
-    44969,
-    49158
-   ],
-   "bytes": 1164105,
-   "sha256": "19ced4958475541e56ae9975b7d251ee39b7ee4cb001807b725bb1b7c843e474",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Russian entries"
-  },
-  {
-   "name": "dict-ru-es.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "ru",
-    "es"
-   ],
-   "entries": [
-    24549,
-    28317
-   ],
-   "bytes": 611634,
-   "sha256": "49e53eff76691040ec186e3f793f87ae4f290ea52e5d82c9ecdf7bc8c8668ebb",
-   "license": "CC-BY-SA-4.0",
-   "source": "Russian Wiktionary and Spanish Wiktionary"
-  },
-  {
-   "name": "dict-en-es.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "es",
-    "en"
-   ],
-   "entries": [
-    79094,
-    77486
-   ],
-   "bytes": 1517881,
-   "sha256": "1765aa80bbdb9c8d5ca615742269f49dff8fc52a0b0c4d25589f795373fc1819",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Spanish entries"
-  },
-  {
-   "name": "dict-en-fr.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "fr",
-    "en"
-   ],
-   "entries": [
-    63647,
-    70387
-   ],
-   "bytes": 1253521,
-   "sha256": "a17f7fbe511cf9abbc28c545a5b26761805b04f3fbb40ab975044a59a522a7d6",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, French entries"
-  },
-  {
-   "name": "dict-en-de.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "de",
-    "en"
-   ],
-   "entries": [
-    70621,
-    71742
-   ],
-   "bytes": 1577717,
-   "sha256": "27d4355a634979517ae7456d004b595d6223e6965e3d464eaabc6238f62c3b98",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, German entries"
-  },
-  {
-   "name": "dict-en-it.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "it",
-    "en"
-   ],
-   "entries": [
-    104109,
-    91226
-   ],
-   "bytes": 1858843,
-   "sha256": "85d2a14301aebaf4e174cbdd1737e03526c7b03316a2b2af7565a997defad594",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Italian entries"
-  },
-  {
    "name": "sentences/sent-en-es.txt.gz",
    "kind": "sentences",
    "sections": [
@@ -234,38 +138,6 @@
    "source": "Tatoeba"
   },
   {
-   "name": "dict-en-he.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "he",
-    "en"
-   ],
-   "entries": [
-    9891,
-    17036
-   ],
-   "bytes": 279243,
-   "sha256": "0b9afe0edd7ffbb0a992d776d107dca8ab6a28be3b0a00d459e5f0a5bc9eb0ca",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Hebrew entries and English translation tables"
-  },
-  {
-   "name": "dict-ru-he.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "he",
-    "ru"
-   ],
-   "entries": [
-    6643,
-    9311
-   ],
-   "bytes": 166152,
-   "sha256": "47e6d3644d51475bd890baa21439d0de87e7c18baa1832334c9b97ace9939930",
-   "license": "CC-BY-SA-4.0",
-   "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
-  },
-  {
    "name": "levels/level-zh.txt.gz",
    "kind": "levels",
    "sections": [
@@ -386,6 +258,102 @@
    "source": "a hand-made list of 300 basic Russian words (tools/ru_top300.tsv)"
   },
   {
+   "name": "dict.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "ru",
+    "en"
+   ],
+   "entries": [
+    44977,
+    49181
+   ],
+   "bytes": 1165434,
+   "sha256": "733e7a3b6db3e70ad6bcf2df08e6b1eb854eebae32e77ea6eaced77fc83577e5",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Russian entries"
+  },
+  {
+   "name": "dict-ru-es.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "ru",
+    "es"
+   ],
+   "entries": [
+    24555,
+    28355
+   ],
+   "bytes": 612820,
+   "sha256": "e5bbde393588ad6e354d1a8556655a709e9d4bfcdf6d578348e51b77d24f293e",
+   "license": "CC-BY-SA-4.0",
+   "source": "Russian Wiktionary and Spanish Wiktionary"
+  },
+  {
+   "name": "dict-en-es.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "es",
+    "en"
+   ],
+   "entries": [
+    79121,
+    77501
+   ],
+   "bytes": 1518821,
+   "sha256": "fc783c04b442ab3b241f27275a893deb4c56405152182b86d4b5f196a5541b53",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Spanish entries"
+  },
+  {
+   "name": "dict-en-fr.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "fr",
+    "en"
+   ],
+   "entries": [
+    63650,
+    70411
+   ],
+   "bytes": 1254188,
+   "sha256": "11c64b071bc5415fa7ee1307bbc026111f19e86432e0050c901021d1a94ce887",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, French entries"
+  },
+  {
+   "name": "dict-en-de.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "de",
+    "en"
+   ],
+   "entries": [
+    70655,
+    71759
+   ],
+   "bytes": 1578586,
+   "sha256": "aa9ab6fdbefb433f3b47dfa1fc7b6860439198a2cf58b797533dfd20d436309c",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, German entries"
+  },
+  {
+   "name": "dict-en-it.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "it",
+    "en"
+   ],
+   "entries": [
+    104119,
+    91247
+   ],
+   "bytes": 1859701,
+   "sha256": "6c3b483d8d7b1a98533e47e2ef4ccc014b9e398c2f4799976ae044cf3c1ce83f",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Italian entries"
+  },
+  {
    "name": "dict-en-zh.txt.gz",
    "kind": "dictionary",
    "sections": [
@@ -393,14 +361,46 @@
     "en"
    ],
    "entries": [
-    55976,
+    56002,
     63108,
     58909
    ],
-   "bytes": 2005954,
-   "sha256": "7363b05144adc992bb509d80dbbb8b27f19229ba7b0d7739f8d1877a6174fe81",
+   "bytes": 2006267,
+   "sha256": "60340012b2ad2ecf915a71aab612602a171f82ddb2d29a8c70ba61ca15cec499",
    "license": "CC-BY-SA-4.0",
    "source": "English Wiktionary, Chinese entries"
+  },
+  {
+   "name": "dict-en-he.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "he",
+    "en"
+   ],
+   "entries": [
+    9891,
+    17036
+   ],
+   "bytes": 279243,
+   "sha256": "d285060160c0ec057111effafa44bcbd80e4f222777303ef66e3f407db18e19f",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Hebrew entries and English translation tables"
+  },
+  {
+   "name": "dict-ru-he.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "he",
+    "ru"
+   ],
+   "entries": [
+    6643,
+    9311
+   ],
+   "bytes": 166152,
+   "sha256": "0336c874d97a0e9c367f31e124ce698ce7a5fcd49db69a37cee79ade5f835b90",
+   "license": "CC-BY-SA-4.0",
+   "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
   }
  ]
 }

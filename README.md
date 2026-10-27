@@ -106,6 +106,14 @@ Anything you build from the dictionaries has to be shared under CC BY-SA 4.0.
   from the other Wiktionary.
 - Converted everything to the compact text format above.
 
+### Order of the meanings
+Wiktionary lists the meanings of a word in the order of its senses, which is not the order of use (for club the first sense is the heavy stick, for bank the river bank).
+Two steps fix the order of the first meaning in the dictionaries (`tools/rerank_dict.py` and `tools/pin_level_translations.py` in the app repo):
+1. For the European pairs, a meaning that occurs clearly more often than the first one in the Tatoeba sentence pairs of the pack (the word in one sentence, the meaning in its translation: at least 3 sentences and more than 1.5 times the first meaning's count) moves to the front.
+   About 1 to 2 percent of the entries change.
+2. The hand-checked translations of the level lists (see Level lists) are put in front of the entry's meanings, and a level word the dictionary lacks gets an entry.
+The Hebrew dictionaries get the same two steps in their own builder (`build_dict_he.py`).
+
 ## License
 
 The dictionaries in the repository root are licensed under [CC BY-SA 4.0](LICENSE).
