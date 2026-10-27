@@ -33,6 +33,7 @@ Entries can be single words or short phrases such as "fall in love".
 
 Hebrew is written without vowel points, as Tatoeba writes it. A verb is listed by its infinitive (לקרוא for "to read"), as the translations are;
 Wiktionary itself lists verbs under the third person masculine past (קרא), which is kept for nouns and the like (ספר "book" and ספר "he counted" are two entries: ספר and לספור).
+The Chinese dictionary file has a third section after the two translation sections: `word<TAB>pinyin` (tone marks, syllables of a longer word separated only where Wiktionary does), for every dictionary word, every word of the sentence pack, the HSK words and every single character they use (pinyin from the Wiktionary pronunciations, CC BY-SA 4.0; the usual reading of a single character from Unihan, Unicode licence).
 Chinese words are in simplified characters; Wiktionary keeps most definitions under the traditional spelling, so they were mapped back to the simplified one,
 and the few traditional characters left (強, 尋, 幹 ...) were removed with their words and sentences (`tools/drop_trad_zh.py` in the app repo).
 
@@ -77,6 +78,7 @@ Only headwords are published, no definitions or examples; the translations come 
 | `level-he` | Aleph | a hand-made list of basic Hebrew words (`tools/he_aleph.tsv` in the app repo); no open word list for Ulpan Aleph exists | 370 |
 
 The first five are lists published by their institutions, whose copyright stays with them; the files here contain only the headwords as a yes/no mark of the level.
+Every list also carries hand-checked translations: the headwords of the German, Spanish, Italian, English and Chinese lists were translated one by one, for the beginner sense of each word (club is a club, not a stick), into every language that can learn from the list (`@en=`, `@ru=`, `@es=`, `@fr=`, `@de=`, `@it=` fields after the headword, best meaning first), so a card never shows the first meaning of a dictionary entry. The translations are in `tools/levels_tr/` in the app repo.
 The Hebrew, French and Russian lists are hand-made. A line of a level file may carry its own translations as extra tab-separated fields (`@en=to be`, `@es=ser`; several meanings with `|`); the French and Russian files do.
 There is no official list for them that could be used: the only French A1 list found (FLELex-Beacco, UCLouvain) is CC BY-NC-SA and its levels were guessed by a model, and the only full Russian A1 lexical minimum found online is an unauthorised copy of a book.
 

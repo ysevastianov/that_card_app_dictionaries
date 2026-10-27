@@ -189,22 +189,6 @@
    "source": "Tatoeba"
   },
   {
-   "name": "dict-en-zh.txt.gz",
-   "kind": "dictionary",
-   "sections": [
-    "zh",
-    "en"
-   ],
-   "entries": [
-    55976,
-    63108
-   ],
-   "bytes": 1581805,
-   "sha256": "973264da6671dc1994f74cbc6338e49df3566f0fe450b515e1396599961ad684",
-   "license": "CC-BY-SA-4.0",
-   "source": "English Wiktionary, Chinese entries"
-  },
-  {
    "name": "sentences/sent-en-zh.txt.gz",
    "kind": "sentences",
    "sections": [
@@ -291,8 +275,8 @@
    "entries": [
     497
    ],
-   "bytes": 1542,
-   "sha256": "49b860070f26ee089be89430e47183f17f99c8ce59126890f3eafa55c337e775",
+   "bytes": 4962,
+   "sha256": "25b3135c26ccc6eec092ec77117e1f2f8013f1644a3d98e2ce740ca24f17e27c",
    "license": "headwords only, no definitions",
    "source": "HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021); word list as typed up in github.com/elkmovie/hsk30 (MIT)"
   },
@@ -306,8 +290,8 @@
    "entries": [
     370
    ],
-   "bytes": 1234,
-   "sha256": "838486a6455f5a957fcc26d370701ccbfa8bf64674698ceba70117b13ee98cc1",
+   "bytes": 5467,
+   "sha256": "22a9d319665d00d20d910a134760c33fce753b29d6e14959f7428b97fe7e30f2",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of about 370 basic Hebrew words (tools/he_aleph.tsv): there is no published open word list for Ulpan Aleph"
   },
@@ -321,8 +305,8 @@
    "entries": [
     669
    ],
-   "bytes": 2525,
-   "sha256": "a6e250de4df10b327b8b42640e3c5728209a4334c375d7d9d59ab3c167469c43",
+   "bytes": 6204,
+   "sha256": "da9b4b895d4bf7c4d5112ef07546750d818c1c255a557b51f959b36d80e2ed7f",
    "license": "headwords only, no definitions",
    "source": "Goethe-Zertifikat A1: Start Deutsch 1, Wortliste"
   },
@@ -336,8 +320,8 @@
    "entries": [
     898
    ],
-   "bytes": 2725,
-   "sha256": "f485d005318d59a934286e48c9b97f2828f5cc3807cfd041007db1c7fa69227a",
+   "bytes": 31681,
+   "sha256": "b041e717a8582b0af41dde83fc0055093519ff013c05a76c6c08233fc4e25b80",
    "license": "headwords only, no definitions",
    "source": "The Oxford 3000 (Oxford University Press), entries tagged A1"
   },
@@ -351,8 +335,8 @@
    "entries": [
     429
    ],
-   "bytes": 1669,
-   "sha256": "48844a29ea08729b4b5109067b09fc86e0eee2bddb77e1865aa7a3b536855255",
+   "bytes": 7924,
+   "sha256": "8a91858eb0305a4da4b7c5af05589e20c804335bd229eb6a80d4290e03d0cf38",
    "license": "headwords only, no definitions",
    "source": "Instituto Cervantes, Plan curricular (PCIC), A1 inventories (a topical inventory, about 430 words)"
   },
@@ -367,7 +351,7 @@
     372
    ],
    "bytes": 2934,
-   "sha256": "462a085a97045c4b2f015b88746402a5709f06e131aa39f91907456c65d20a14",
+   "sha256": "9c43bd8600d69774c24ac12bb6dad44bca5904f952ca9414da589881b965ef37",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of 300 basic French words (tools/fr_top300.tsv)"
   },
@@ -381,8 +365,8 @@
    "entries": [
     483
    ],
-   "bytes": 1701,
-   "sha256": "e3e05429fc7d2d5e834471c09690cc840bd8c4ef1d3d991ec8f1fbafd5cecc77",
+   "bytes": 4253,
+   "sha256": "fb26d2a52fc9561e7a92a3447fe7d9893188bc152cf1c6940d23feecbe69edb2",
    "license": "headwords only, no definitions",
    "source": "Profilo della lingua italiana, A1 word list (Spinelli and Parizzi; Universita per Stranieri di Perugia)"
   },
@@ -397,9 +381,26 @@
     357
    ],
    "bytes": 5066,
-   "sha256": "f41f9b120310661436d03049bdb9a91e849b4e9971d027bf14f5115c8c1ce5e8",
+   "sha256": "b54cbaa54df86c12e6774ab29fa6277c6948fc3682c109893d2a27cb1e464493",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of 300 basic Russian words (tools/ru_top300.tsv)"
+  },
+  {
+   "name": "dict-en-zh.txt.gz",
+   "kind": "dictionary",
+   "sections": [
+    "zh",
+    "en"
+   ],
+   "entries": [
+    55976,
+    63108,
+    58909
+   ],
+   "bytes": 2005954,
+   "sha256": "7363b05144adc992bb509d80dbbb8b27f19229ba7b0d7739f8d1877a6174fe81",
+   "license": "CC-BY-SA-4.0",
+   "source": "English Wiktionary, Chinese entries"
   }
  ]
 }
