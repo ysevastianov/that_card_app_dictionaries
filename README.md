@@ -31,9 +31,10 @@ Each line is `word<TAB>translation1|translation2|translation3`, best translation
 The first section goes from the first language to the second, the second section goes back.
 Entries can be single words or short phrases such as "fall in love".
 
-Hebrew is written without vowel points, as Tatoeba writes it. A verb is listed under the form Wiktionary uses as its dictionary word
-(third person masculine past, for example קרא for "to read"); infinitives found in translation tables are mapped to it.
-Chinese words are in simplified characters; Wiktionary keeps most definitions under the traditional spelling, so they were mapped back to the simplified one.
+Hebrew is written without vowel points, as Tatoeba writes it. A verb is listed by its infinitive (לקרוא for "to read"), as the translations are;
+Wiktionary itself lists verbs under the third person masculine past (קרא), which is kept for nouns and the like (ספר "book" and ספר "he counted" are two entries: ספר and לספור).
+Chinese words are in simplified characters; Wiktionary keeps most definitions under the traditional spelling, so they were mapped back to the simplified one,
+and the few traditional characters left (強, 尋, 幹 ...) were removed with their words and sentences (`tools/drop_trad_zh.py` in the app repo).
 
 ## Sentence packs
 

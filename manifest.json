@@ -196,11 +196,11 @@
     "en"
    ],
    "entries": [
-    9591,
-    17473
+    9957,
+    17440
    ],
-   "bytes": 279303,
-   "sha256": "20a611c087a0267732d75b760e3d061d0f03d7b6f1ee523b2d0a6977f41bbba6",
+   "bytes": 285940,
+   "sha256": "1547ca658876af044380418a14c7c972e355fcf514628784349edf6364c709f5",
    "license": "CC-BY-SA-4.0",
    "source": "English Wiktionary, Hebrew entries and English translation tables"
   },
@@ -212,11 +212,11 @@
     "ru"
    ],
    "entries": [
-    7610,
-    10463
+    6673,
+    9502
    ],
-   "bytes": 188926,
-   "sha256": "bd1aae0381c0668f59c14567355d0e3346dfa65aff89caff697370ac53847af2",
+   "bytes": 169735,
+   "sha256": "3ddcc2fc5d93b443b6c347db8252859f1a60d4e2c125d2135f464ad69fceb7ee",
    "license": "CC-BY-SA-4.0",
    "source": "Russian Wiktionary, Hebrew entries and Russian translation tables"
   },
@@ -228,11 +228,11 @@
     "en"
    ],
    "entries": [
-    56285,
-    63357
+    55976,
+    63108
    ],
-   "bytes": 1589967,
-   "sha256": "792ccce1112b6e9a85e52d3f4f9cf9e0dabfdb071e9cacd93cc55f03e70a900d",
+   "bytes": 1581805,
+   "sha256": "973264da6671dc1994f74cbc6338e49df3566f0fe450b515e1396599961ad684",
    "license": "CC-BY-SA-4.0",
    "source": "English Wiktionary, Chinese entries"
   },
@@ -244,10 +244,10 @@
     "he"
    ],
    "entries": [
-    115029
+    115043
    ],
-   "bytes": 4089137,
-   "sha256": "59ab27083bb8393d075bbd80901c110dff678d9b7d44650794978b579832d603",
+   "bytes": 4116541,
+   "sha256": "7be41a7992c2d5acd47af0981f57cb4a925a11b0629fe17c102ee6b9eba7b9f4",
    "license": "CC-BY-2.0-FR",
    "source": "Tatoeba"
   },
@@ -259,10 +259,10 @@
     "he"
    ],
    "entries": [
-    67540
+    67557
    ],
-   "bytes": 2518899,
-   "sha256": "c51ebab1877a18d68fb3a62e8526dec5059170eba6a550996176b2615cca1148",
+   "bytes": 2536657,
+   "sha256": "a4aa4fa2e0439ffb4a4c88850da9640491290538a5d3b3c9d3d1f1cfc328ef77",
    "license": "CC-BY-2.0-FR",
    "source": "Tatoeba"
   },
@@ -274,10 +274,10 @@
     "zh"
    ],
    "entries": [
-    53918
+    53627
    ],
-   "bytes": 1954246,
-   "sha256": "c7434aa0ceae5fb7f7dd04ffc612a3378567f4fb4a694ede91c3f464ea46701e",
+   "bytes": 1941287,
+   "sha256": "e0b7b11f74a74fac6a3c02548e907484734b2189ba72522f80097fef3dacc060",
    "license": "CC-BY-2.0-FR",
    "source": "Tatoeba"
   }
