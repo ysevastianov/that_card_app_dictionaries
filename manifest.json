@@ -292,8 +292,8 @@
    "entries": [
     30
    ],
-   "bytes": 385,
-   "sha256": "d93552390f115d5dafe41af28e12b6f30bb538c48148849be303d1fd3f8f1f95",
+   "bytes": 389,
+   "sha256": "08dcb77060804c2344d98ffcc8fc255c9ac95516958ea14379e8f4a2ab16a023",
    "license": "headwords only, no definitions",
    "source": "HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021); word list as typed up in github.com/elkmovie/hsk30 (MIT)"
   },
@@ -307,8 +307,8 @@
    "entries": [
     30
    ],
-   "bytes": 617,
-   "sha256": "5bd15e5b0ff7a5f207590bb7e28eb5798d345b024d8af8c95424fde5da361bcf",
+   "bytes": 621,
+   "sha256": "2857a9c03c1070135b673fc1753cbcb3aa3f71c2b7ddf7f502a76858dbe50b6b",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of about 370 basic Hebrew words (tools/he_aleph.tsv): there is no published open word list for Ulpan Aleph"
   },
@@ -322,8 +322,8 @@
    "entries": [
     30
    ],
-   "bytes": 329,
-   "sha256": "1ebd8bab912bdf9bdba898be83203f2c384eb107124577f7bdffc911ffad1245",
+   "bytes": 332,
+   "sha256": "4c813806136e5ecdfb57801fdb5fc3af698bb37c2c613dadbd1200c18dfa90b3",
    "license": "headwords only, no definitions",
    "source": "Goethe-Zertifikat A1: Start Deutsch 1, Wortliste"
   },
@@ -337,8 +337,8 @@
    "entries": [
     30
    ],
-   "bytes": 1187,
-   "sha256": "aeec54237f2d30186af43e353791b92da56c07ade5168ccbdbd5be9cffe1b5d2",
+   "bytes": 1189,
+   "sha256": "806b386ce02902efe17f19df7d9baae6a96d1cf6b7bfef64e8cb4a7a749424e2",
    "license": "headwords only, no definitions",
    "source": "The Oxford 3000 (Oxford University Press), entries tagged A1"
   },
@@ -352,8 +352,8 @@
    "entries": [
     30
    ],
-   "bytes": 596,
-   "sha256": "bae555def71e8e8625b02b6a8ba06bdc7525d4e394c730544a948863c4132288",
+   "bytes": 600,
+   "sha256": "135781732d2f29af9b52537a23795603443708d319ce162c6ab5889ac2aec40e",
    "license": "headwords only, no definitions",
    "source": "Instituto Cervantes, Plan curricular (PCIC), A1 inventories (a topical inventory, about 430 words)"
   },
@@ -367,8 +367,8 @@
    "entries": [
     30
    ],
-   "bytes": 313,
-   "sha256": "55e2029bd9d62d432c829d31a0d5a802e87934a67272d02ddbcf2a26275930ae",
+   "bytes": 315,
+   "sha256": "bc07a5278a304cd52ea01fdf237e43609846136c62cd169164e7123d32d11bef",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of 300 basic French words (tools/fr_top300.tsv)"
   },
@@ -382,8 +382,8 @@
    "entries": [
     30
    ],
-   "bytes": 324,
-   "sha256": "ccc098deeae83da825f5550d5277d434a0201e27fd8ad0ee432cb534ad016318",
+   "bytes": 327,
+   "sha256": "244f9ab6d7dc28a6c262f1a55fa9fea63f18c91ddf6773eff5b0bef866946fa1",
    "license": "headwords only, no definitions",
    "source": "Profilo della lingua italiana, A1 word list (Spinelli and Parizzi; Universita per Stranieri di Perugia)"
   },
@@ -397,8 +397,8 @@
    "entries": [
     30
    ],
-   "bytes": 607,
-   "sha256": "d09450716e0b771a149f7b3067ac55941a407d85e8b3416c0a05867e2e8bb294",
+   "bytes": 608,
+   "sha256": "e14a98ada16d19cccbe59d3d4a384be8909e540ef5f96fae600621517c832393",
    "license": "headwords only, no definitions",
    "source": "a hand-made list of 300 basic Russian words (tools/ru_top300.tsv)"
   }
