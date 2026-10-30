@@ -60,58 +60,31 @@ https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/d
 https://raw.githubusercontent.com/ysevastianov/that_card_app_dictionaries/main/sentences/sent-en-es.txt.gz
 ```
 
-## Level lists
+## Quick start sets
 
-`levels/level-xx.txt.gz` (listed in `manifest.json` with `kind: levels`) holds the headwords of the beginner level of one language, one per line, variants of one entry separated by a tab.
-The app uses it for the level flag next to a language: the words of the list that the pair's dictionary knows become a set of words under one tag (A1, HSK1, Aleph).
-Only headwords are published, no definitions or examples; the translations come from the dictionaries above. The lists are built by `tools/build_levels.py` in the app repo.
+`levels/level-xx.txt.gz` (listed in `manifest.json` with `kind: levels`) is the Quick start set of one learnt language: 30 words, 15 verbs (`@g=v`) and 15 travel words (`@g=t`), one per line.
+A line is the headword, then extra tab-separated fields: the hand-checked translations into every language that can learn from the list (`@en=`, `@ru=`, `@es=`, `@fr=`, `@de=`, `@it=`; several meanings with `|`, best first) and the theme.
+The app shows these as a set of words with two tags, the theme and `quick start`, written in the language of the learner; the translation on the card is the one in the file.
+The words are chosen out of the beginner word lists below by `tools/quick_start.py` and built by `tools/build_levels.py` in the app repo; the source lists are not published here, only these 30 words per language.
 
-| File | Level | Source | Words |
-|---|---|---|---|
-| `level-zh` | HSK1 | HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021), as typed up in github.com/elkmovie/hsk30 (MIT) | 497 |
-| `level-de` | A1 | Goethe-Zertifikat A1: Start Deutsch 1, Wortliste (Goethe-Institut) | 669 |
-| `level-es` | A1 | Instituto Cervantes, Plan curricular (PCIC), A1 inventories; a topical inventory, so short | 429 |
-| `level-it` | A1 | Profilo della lingua italiana, A1 word list (Spinelli and Parizzi, Universita per Stranieri di Perugia) | 483 |
-| `level-en` | A1 | The Oxford 3000 (Oxford University Press), entries tagged A1 | 898 |
-| `level-fr` | Basic | a hand-made list of basic French words (`tools/fr_top300.tsv` in the app repo), with its own English translations | 372 |
-| `level-ru` | Basic | a hand-made list of basic Russian words (`tools/ru_top300.tsv` in the app repo), with its own English and Spanish translations | 357 |
-| `level-he` | Aleph | a hand-made list of basic Hebrew words (`tools/he_aleph.tsv` in the app repo); no open word list for Ulpan Aleph exists | 370 |
+| File | Chosen from | Words |
+|---|---|---|
+| `level-zh` | HSK 3.0 level 1 (Chinese Proficiency Grading Standards for International Chinese Language Education, 2021), as typed up in github.com/elkmovie/hsk30 (MIT) | 30 |
+| `level-de` | Goethe-Zertifikat A1: Start Deutsch 1, Wortliste (Goethe-Institut) | 30 |
+| `level-es` | Instituto Cervantes, Plan curricular (PCIC), A1 inventories | 30 |
+| `level-it` | Profilo della lingua italiana, A1 word list (Spinelli and Parizzi, Universita per Stranieri di Perugia) | 30 |
+| `level-en` | The Oxford 3000 (Oxford University Press), entries tagged A1 | 30 |
+| `level-he`, `level-fr`, `level-ru` | hand-made lists of basic words (`tools/he_aleph.tsv`, `fr_top300.tsv`, `ru_top300.tsv`); there is no usable open list for them | 30 |
 
-The first five are lists published by their institutions, whose copyright stays with them; the files here contain only the headwords as a yes/no mark of the level.
-Every list also carries hand-checked translations: the headwords of the German, Spanish, Italian, English and Chinese lists were translated one by one, for the beginner sense of each word (club is a club, not a stick), into every language that can learn from the list (`@en=`, `@ru=`, `@es=`, `@fr=`, `@de=`, `@it=` fields after the headword, best meaning first), so a card never shows the first meaning of a dictionary entry. The translations are in `tools/levels_tr/` in the app repo.
-The Hebrew, French and Russian lists are hand-made. A line of a level file may carry its own translations as extra tab-separated fields (`@en=to be`, `@es=ser`; several meanings with `|`); the French and Russian files do.
-There is no official list for them that could be used: the only French A1 list found (FLELex-Beacco, UCLouvain) is CC BY-NC-SA and its levels were guessed by a model, and the only full Russian A1 lexical minimum found online is an unauthorised copy of a book.
-
-## Attribution
-
-**Dictionaries.** Derived from Wiktionary (https://www.wiktionary.org) by its contributors, using the structured
-extracts published by kaikki.org (https://kaikki.org), which are produced with wiktextract.
-Wiktionary text is available under the Creative Commons Attribution-ShareAlike 4.0 license.
-
-**Sentences.** From Tatoeba (https://tatoeba.org), by its contributors, licensed under CC BY 2.0 FR.
-The dictionary forms listed in the packs were looked up with the Wiktionary-derived data above, so credit Wiktionary too if you reuse them.
-
-Wiktionary, the Wikimedia Foundation and Tatoeba do not endorse this project.
-If you use these files, credit the sources, link the license, and say that the data was changed.
-Anything you build from the dictionaries has to be shared under CC BY-SA 4.0.
-
-## Changes made to the Wiktionary data
-
-- Kept the first gloss of each meaning and cut each entry to at most three translations.
-- Removed inflected forms, obsolete, archaic, rare, dated, dialectal, vulgar and offensive meanings, and long
-  descriptions that are not translations.
-- Reordered translations by how often a word occurs in Wiktionary's own example sentences and by how early it
-  appears in its entry, so the most common translation comes first.
-- Merged both directions into one file per language pair, and for Russian with Spanish topped up each direction
-  from the other Wiktionary.
-- Converted everything to the compact text format above.
+The first five source lists are published by their institutions, whose copyright stays with them; the files here contain only 30 headwords of each with our own translations.
+The translations were written one by one for the beginner sense of each word (club is a club, not a stick) and are in `tools/levels_tr/` in the app repo.
 
 ### Order of the meanings
 Wiktionary lists the meanings of a word in the order of its senses, which is not the order of use (for club the first sense is the heavy stick, for bank the river bank).
 Two steps fix the order of the first meaning in the dictionaries (`tools/rerank_dict.py` and `tools/pin_level_translations.py` in the app repo):
 1. For the European pairs, a meaning that occurs clearly more often than the first one in the Tatoeba sentence pairs of the pack (the word in one sentence, the meaning in its translation: at least 3 sentences and more than 1.5 times the first meaning's count) moves to the front.
    About 1 to 2 percent of the entries change.
-2. The hand-checked translations of the level lists (see Level lists) are put in front of the entry's meanings, and a level word the dictionary lacks gets an entry.
+2. The hand-checked translations of the level lists (see Quick start sets) are put in front of the entry's meanings, and a level word the dictionary lacks gets an entry.
 The Hebrew dictionaries get the same two steps in their own builder (`build_dict_he.py`).
 
 ## License
